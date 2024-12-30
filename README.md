@@ -1,0 +1,1 @@
+This example demonstrates a potential confusion in F# when using mutable variables within functions.  The `add` function modifies the value of `x` but returns the value of `y`.  The output may be unexpected for developers unfamiliar with how mutability and return values interact in this context. The solution shows how to avoid unexpected behavior using immutable values.
